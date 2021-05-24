@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="pt_br">
+    
+    <head>
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" type="image/x-icon" href="/">
+            <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="/style/index.css
+            ">
+            <link rel="stylesheet" href="/styles/responsive.css"> 
+        
+            <title>Resultado da Pesquisa</title>
+
+    </head>
+
+        <body>
+    
+                        <!-- LEMBRAR QUE  O : Lugar para pegar imagens livre é no site
+                        https://unsplash.com  -->
+
+        <main> 
+            
+            
+
+     
+            <form enctype=""  action="processa.php" method="POST">
+
+                <h1>Cadastro </h1>
+
+                <fieldset>
+                    <legend>
+                        <h2>Dados completos</h2>
+                    </legend>
+
+                            <div class="field">
+                            <label for="name">Nome completo</label>
+                            <input type="text"name="name completo" required>
+                            </div>
+                        <div class="field-group">
+                            <div class="field">
+                                <label for="address">Endereço</label>
+                                <input type="text" name="address" required>
+                            </div>
+                        </div>
+                            <div class="field">
+                            <label for="address2">Número/Complemento</label>
+                            <input type="text" name="address2"required >
+                        </div>  
+                        </div>
+                        
+                            
+                        <div class="field-group">
+
+                            <div class="field">
+                                <label for="state">Estado</label>
+                                    <select name="uf" required >
+                                            <option value="uf">Selecione o Estado</option>
+                                            
+                                    </select>
+                                    <input type="hidden" name="state">
+
+                            </div>
+
+                            <div class="field">
+                                <label for="city">Cidade</label>
+                                    <select name="city" disabled required >
+                                        <option value="">Selecione a Cidade</option>
+                                        
+                                    </select>
+
+
+                </fieldset>
+                        <button type="submit" value="cadastrar">Enviar</button>
+            </form>
+
+                    </div>
+                   
+                   
+
+                      </div>
+
+                            
+                         </div>
+    </div>                    
+                        
+</main>  
+                     
+                        <script src="/script/index.js"></script>     
+        </body>
+                  
+        </html>
