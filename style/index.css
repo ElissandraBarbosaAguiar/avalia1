@@ -1,8 +1,16 @@
 form{
-
+    width: 90%;
+    max-width: 1100px;
+    /*alinhamento da caixa, pelo lado de fora*/
+    margin: 0 auto;
     background-color: #d578f1;
     align-items: center;
     position: relative;
+    margin-top: 48px;
+    display: center;
+    justify-content: space-between;
+    border-radius: 2% 2%  2%  ;
+    padding: 1rem;
 
 }
 form h1{
@@ -17,6 +25,7 @@ color: #f6f4f7;
 }
 .field{
     background-color: #d894ec;
+    padding: 1rem;
 }
 .field-group{
     background-color: #7f0ca1;
@@ -31,4 +40,6 @@ button{
     text-shadow: #7f0ca1;
     transition: 1s;
     border-radius: 22%;
+    
+    
 }
