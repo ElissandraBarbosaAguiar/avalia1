@@ -1,3 +1,7 @@
+body{
+    background-color: #f3e6f7;
+   
+}
 form{
     width: 90%;
     max-width: 1100px;
@@ -37,9 +41,10 @@ color: #f6f4f7;
 }
 button{
     background-color:#f3e6f7 ;
-    text-shadow: #7f0ca1;
-    transition: 1s;
-    border-radius: 22%;
+    transition: 5s;
+    color:#7f0ca1 ;
+    border: none;
+    border-radius: 12% 12% 12%;
     
     
 }
