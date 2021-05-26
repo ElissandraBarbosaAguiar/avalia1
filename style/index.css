@@ -1,0 +1,34 @@
+form{
+
+    background-color: #d578f1;
+    align-items: center;
+    position: relative;
+
+}
+form h1{
+    background-color: #bc09f3;
+    color: rgb(235, 229, 229);
+}
+
+fieldset{
+
+background-color: #d578f1;
+color: #f6f4f7;
+}
+.field{
+    background-color: #d894ec;
+}
+.field-group{
+    background-color: #7f0ca1;
+}
+
+ select{
+     
+    color: #7f0ca1;
+}
+button{
+    background-color:#f3e6f7 ;
+    text-shadow: #7f0ca1;
+    transition: 1s;
+    border-radius: 22%;
+}
