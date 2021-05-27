@@ -1,16 +1,29 @@
+body{
+    background-color: #c858f8;
+}
 main{
-    padding: 5%;
+    padding: 8%;
     position: center;
+    background-color: #d5a8f5;
     
 }
+.cores{
+    width: 90%;
+    max-width: 1100px;
+    /*alinhamento da caixa, pelo lado de fora*/
+    margin: 0 auto;
+    
+}
+
 .table1{
 position: center;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 text-align: center;
-padding-top: 1%;
-padding-bottom: 1%;
-padding-left: 1%;
-padding-right: 1%;
+padding-top: 4%;
+padding-bottom: 4%;
+padding-left: 4%;
+padding-right: 4%;
+border-color: #4B0082;
 
 }
 
