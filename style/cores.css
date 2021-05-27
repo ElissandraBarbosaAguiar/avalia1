@@ -1,0 +1,68 @@
+main{
+    padding: 5%;
+    position: center;
+    
+}
+.table1{
+position: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+padding-top: 1%;
+padding-bottom: 1%;
+padding-left: 1%;
+padding-right: 1%;
+
+}
+
+.indigo{
+    background-color:#4B0082 ;
+}
+.darkviolet{
+ background-color: #9400D3;
+}
+.darkorchid{
+background-color: 	#9932CC;
+}
+.mediumorchid{
+background-color: #BA55D3;
+}
+.purple{
+background-color:#A020F0 ;
+}
+.darckmagenta{
+background-color: #8B008B;
+}
+.fuchsiamagenta{
+background-color: #FF00FF;
+}
+
+.violet{
+background-color:#EE82EE ;
+}
+.orchid{
+background-color: #DA70D6;
+}
+
+.plum{
+background-color: #DDA0DD;
+}
+.mediumvioletred{
+background-color: #C71585;
+}
+.deeppink{
+background-color: #FF1493;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
