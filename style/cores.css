@@ -1,27 +1,49 @@
 body{
     background-color: #c858f8;
+    max-width: 80%;
+    padding-left: 15%;
 }
 main{
     padding: 8%;
     position: center;
     background-color: #d5a8f5;
+    display: relative;
+    padding-left: 15%;
+    
     
 }
+.fildform{
+    width: 100%;
+    display: flex;
+    padding-left: -25%;
+    padding-right: 25%;
+
+
+}
 .cores{
-    width: 90%;
+    width: 98%;
     max-width: 1100px;
     /*alinhamento da caixa, pelo lado de fora*/
     margin: 0 auto;
+    padding-left: -5%;
+    
+    
     
 }
 
+.fild{
+    align-items: center;
+    margin-right: 15%;
+    margin-left: 1%;
+    
+}
 .table1{
-position: center;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+position: relative;
+font-family:Roboto, sans-serif;
 text-align: center;
 padding-top: 4%;
 padding-bottom: 4%;
-padding-left: 4%;
+padding-left: -4%;
 padding-right: 4%;
 border-color: #4B0082;
 
