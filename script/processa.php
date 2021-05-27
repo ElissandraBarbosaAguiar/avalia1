@@ -10,7 +10,7 @@
    // $items_li = filter_input(INPUT_POST, 'items_li', FILTER_SANITIZE_STRING);
 
 
-    $result_usuario = "INSERT INTO  cadastroMembro (nomeCompleto, endereco, numeroCompleto, estado, cidade, /*items_li*/) VALUES ('$nomeCompleto', '$endereco', '$numeroCompleto', '$estado', '$cidade')";//, '$items_li'
+    $result_usuario = "INSERT INTO  cadastrotemas (nomeCompleto, endereco, numeroCompleto, estado, cidade, /*items_li*/) VALUES ('$nomeCompleto', '$endereco', '$numeroCompleto', '$estado', '$cidade')";//, '$items_li'
     $resultado_usuario = mysqli_query($conn, $result_usuario);
 
 
