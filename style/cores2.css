@@ -24,7 +24,7 @@ main{
 margin-top: 50%;
 padding-left: -100%;
 justify-content: space-between;
-color: #024657;
+color: #022a57;
 }
 
 .cores{
@@ -42,7 +42,7 @@ color: #024657;
     margin-right: 15%;
     margin-left: 1%;
     background-color: #91bdcc;
-    color: black;
+    color: rgba(0, 0, 0, 0.664);
     font-family: Roboto, sans-serif;
     
     
