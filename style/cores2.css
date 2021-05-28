@@ -2,14 +2,14 @@
     padding-left: 100%;
 }
 body{
-    background-color: #c858f8;
+    background-color: #a0bec5;
     max-width: 80%;
     padding-left: 15%;
 }
 main{
     padding: 8%;
     position: center;
-    background-color: #d5a8f5;
+    background-color: #057dac;
     display: relative;
     padding-left: 15%;
   
@@ -24,16 +24,9 @@ main{
 margin-top: 50%;
 padding-left: -100%;
 justify-content: space-between;
-color: #330257;
+color: #024657;
 }
-.fildform{
-    width: 100%;
-    display: flex;
-    padding-left: -25%;
-    padding-right: 25%;
 
-
-}
 .cores{
     width: 98%;
     max-width: 1100px;
@@ -43,13 +36,18 @@ color: #330257;
   
 }
 
+
 .fild{
     align-items: center;
     margin-right: 15%;
     margin-left: 1%;
+    background-color: #91bdcc;
+    color: black;
+    font-family: Roboto, sans-serif;
+    
     
 }
-.table1{
+.table2{
 position: relative;
 font-family:Roboto, sans-serif;
 text-align: center;
@@ -57,35 +55,50 @@ padding-top: 4%;
 padding-bottom: 4%;
 padding-left: -4%;
 padding-right: 4%;
-border-color: #4B0082;
+border-color: #07b1f5;
 
 }
 
-.blue{
-    background-color: ;
+.Blue{
+    background-color: #0000FF;
 }
 .CornflowerBlue{
-    background-color: ;
+    background-color:#6495ED ;
 }
 .RoyalBlue{
-
+background-color: #4169E1;
 }
 .DodgerBlue{
-    background-color: ;
+    background-color:#1E90FF ;
 }
 .DeepSkyBlue{
-    background-color: ;
+    background-color:#00BFFF ;
 }
 .LightSkyBlue{
-background-color: ;
+background-color:#87CEFA ;
 }
 .LightBlue{
-    background-color: ;
+    background-color: #ADD8E6;
 }
 
 .SteelBlue{
-    background-color: ;
+    background-color: #4682B4;
 }
+
+.SlateGray{
+    background-color:#708090 ;
+}
+.DarkTurquoise{
+    background-color: #00CED1;
+}
+.Turquoise{
+    background-color:#40E0D0 ;
+}
+.Aquamarine{
+    background-color:#7FFFD4 ;
+}
+
+
 
 /*https://celke.com.br/artigo/tabela-de-cores-html-nome-hexadecimal-rgb*/
 
