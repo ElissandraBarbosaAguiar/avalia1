@@ -1,3 +1,6 @@
+.br1{
+    padding-left: 100%;
+}
 body{
     background-color: #c858f8;
     max-width: 80%;
@@ -9,8 +12,19 @@ main{
     background-color: #d5a8f5;
     display: relative;
     padding-left: 15%;
+  
+}
+.cores{
+    margin-top: 50%;
+    padding-left: -100%;
+    justify-content: space-between;
     
-    
+}
+.cor2 {
+margin-top: 50%;
+padding-left: -100%;
+justify-content: space-between;
+color: #330257;
 }
 .fildform{
     width: 100%;
