@@ -38,7 +38,7 @@
 
             <form enctype=""  action="processa.php" method="POST"   enctype="multipart/form-data">
 
-                <h1>Cadastro </h1>
+                <h1> Modelo de Cadastro </h1>
 
                 <fieldset>
                     <legend>
@@ -83,8 +83,25 @@
 
 
                 </fieldset>
-                        <button type="submit" value="cadastrar">Enviar</button>
-            </form>
+                        <button type="submit" value="cadastrar" onclick="alert('Erro ao enviar, sistema não completo. Agora explore todo o conteúdo!')">Enviar</button>
+                        <button id="btn"> Enviar  exemplo.2</button>
+                        <!--   Essa parte é um exemplo de script junto ao html, inserindo a hora e a data no alert.-->
+                        <script type="text/javascript">
+                            function exibirMensagem()
+                            {
+                                var data = new Date();
+                                alert(data.toString());
+                            }
+                     
+                             
+                            var btn = document.getElementById("btn");
+                     
+                            btn.addEventListener("click", exibirMensagem);
+                        </script>
+                    
+                    
+                  
+                    </form>
 
                     </div>
                    
