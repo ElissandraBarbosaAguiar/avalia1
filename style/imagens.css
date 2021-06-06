@@ -23,3 +23,13 @@ footer{
     text-align: justify;
     display: flexbox;
 }
+.azul{
+    background-color: rgba(107, 172, 233, 0.842);
+    color: white;
+    margin-top: 5%;
+    position: relative;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    text-align: justify;
+    display: flexbox;
+}
